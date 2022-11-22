@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.col-1 {
+    background: rgb(0, 17, 255);
+    background: radial-gradient(circle, rgba(0, 17, 255, 1) 50%, rgba(0, 0, 0, 1) 100%);
+    width: 20vw;
+    height: 100vh;
+    margin: 0;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+img {
+    height: 20vh;
+    width: 10vw;
+}
+
+nav {
+    text-align: center;
+}
+
+.navegacao {
+    color: #ffffff;
+    font-family: 'Courier New';
+    text-decoration: none;
+}
+
+.navegacao:hover {
+    color: #35d305;
+    text-decoration: underline;
+}
+
+.col-2 {
+    background-color: #d3d3d3;
+    width: 80%;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteudo {
+    border: solid 1px;
+    border-radius: 50px;
+    background-color: #a7d7f1;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+h1 {
+    font-size: 100px;
+    color: #993333;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+span {
+    color: #120c4d;
+}
+
+p {
+    font-size: 25px;
+    margin-top: 0;
+    text-align: center;
+}
+
+#e-mail:hover {
+    color: #c71515;
+    text-decoration: none;
+}
+
+#descriçao {
+    color: #120c4d;
+    font-size: 20px;
+}
+
+.redes-sociais {
+    height: 35px;
+    width: 35px;
+
+}
+
+
+.botoes-nav {
+    background-color: #a7d7f1;
+    border: 0;
+}
+
+.listas {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 0;
+}
